@@ -1,0 +1,20 @@
+import NFTCatalog from 0xda1e3aade0dacc70
+
+/*
+    The catalog is returned as a `String: NFTCatalogMetadata`
+    The key string is intended to be a unique identifier for a specific collection.
+    The NFTCatalogMetadata contains collection-level views corresponding to each
+    collection identifier.
+    Due to the large size of the response, only the first 10 entries are returned.
+*/
+pub fun main(): {String: NFTCatalog.NFTCatalogMetadata} {
+    let catalogKeys = NFTCatalog.getCatalogKeys()
+    let keys = catalogKeys.slice(from: 0, upTo: 10)
+    let collections: {String: NFTCatalog.NFTCatalogMetadata} = {}
+
+    for key in keys {
+        collections[key] = catalog[key]
+    }
+
+    return collections
+}
