@@ -1,0 +1,37 @@
+{
+  "attributes": null,
+  "blockchainId": null,
+  "content": {
+    "files": [
+      null
+    ],
+    "id": "fbe4d905-1078-4bba-b72a-1d9db3183348",
+    "poster": {
+      "contentType": "image/png",
+      "id": "clz0456d70001jv0vub7939aq/cdb06522-f8f4-4168-98b8-60d5a4f76209-wheelofemotionsvisualchartpng",
+      "url": "https://niftory-assets-prod.s3.amazonaws.com/clz0456d70001jv0vub7939aq/cdb06522-f8f4-4168-98b8-60d5a4f76209-wheelofemotionsvisualchartpng",
+      "__typename": "SimpleFile"
+    },
+    "__typename": "NFTContent"
+  },
+  "createdAt": "2024-07-24T18:19:56.564Z",
+  "description": "The Wheel of Emotions is a visual aid to help understand our core emotions and examples of the\nvariations we can feel. This helps build self-awareness and ability to name emotions at their differing levels\nof intensity.",
+  "id": "91ac263e-c474-4faf-bac3-59ddbe376464",
+  "metadata": {
+    "tags": "",
+    "artists": ""
+  },
+  "quantity": 5,
+  "quantityMinted": 0,
+  "set": {
+    "id": "228cf42d-94af-4dad-b406-6175fea07d94",
+    "title": "Emotions",
+    "__typename": "NFTSet"
+  },
+  "nftListings": [],
+  "state": "UNMINTED",
+  "status": "DRAFT",
+  "title": "Wheel of Emotions",
+  "updatedAt": "2024-07-24T18:19:56.564Z",
+  "__typename": "NFTModel"
+}
